@@ -78,9 +78,9 @@ Request Query Params
 
 | **Required** | **Key**      | **Value**        |
 | ------------ | ------------ | ---------------- |
-| Optional     | year         |  int             |
-| Optional     | city         |  str             |
-| Optional     | status       |  str             |
+| No           | year         |  int             |
+| No           | city         |  str             |
+| No           | status       |  str             |
 
 
 ## How the project will be approached:
