@@ -83,4 +83,17 @@ Request Query Params
 | Optional     | status       |  str             |
 
 
+## How the project will be approached:
+
+1. Check requirements
+2. Check database structure and tables
+3. Create query to return the results to the user
+4. Create API in python with local server and database connection
+5. Create endpoint with GET method in which the results of the query are displayed
+6. Create filters and add them to the query
+7. Add environment variables
+8. Table creation script for likes service
+9. Create project structure and create repository 
+
 ---
+
