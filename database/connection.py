@@ -1,5 +1,6 @@
 import pymysql
 import json
+from decouple import config
 
 
 class Connection():
@@ -7,11 +8,11 @@ class Connection():
     def connect(query):
         try:
             con = pymysql.connect(
-                host='3.130.126.210',
-                port=3309, 
-                user= 'pruebas', 
-                password='VGbt3Day5R', 
-                database='habi_db'
+                host=config('DB_HOST'),
+                port=int(config('DB_PORT')), 
+                user=config('DB_USER'), 
+                password=config('DB_PASS'), 
+                database=config('DB_DATABASE')
             )
             
             response = con.cursor()
